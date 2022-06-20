@@ -33,9 +33,6 @@
 		<legend> 로그인 화면 </legend><p>
 		
 		<table>
-		<form action="signup.jsp" method="post" >
-			<td><input type="submit" value=" 회원가입 ▶" ></td>
-		</form>
 		<form name="loginForm" action="loginSuccess.jsp" 
 		method="post" onsubmit="return checkFun()" >
 			<br>
@@ -50,6 +47,10 @@
 			<td><input type="submit" value=" 로그인 ▶▶ "></td>
 		</tr>
 		</table>
+		</form>
+		<form action="signup.jsp" method="post" >
+			<td><input type="submit" value=" 회원가입 ▶" ></td>
+		</form>
 	</fieldset>
 	</form>
 </body>

@@ -14,11 +14,7 @@
 	idd.setString(1, u_name);
 	idd.setString(2, u_number);
 
-	rs=idd.executeQuery();
 
-	while(rs.next()){
-		System.out.println(rs.getString("name"));
-	}
 	int count = idd.executeUpdate();
 	
 	if(count == 1){
